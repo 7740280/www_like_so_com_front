@@ -3,9 +3,19 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import MuseUI from 'muse-ui';
+import vueAwesomeSwiper from 'vue-awesome-swiper'
 
 import 'normalize.css'
+import animated from 'animate.css'
+import 'muse-ui/dist/muse-ui.css';
 import '@/assets/css/common.lib.css'
+
+
+
+Vue.use(MuseUI);
+Vue.use(animated);
+Vue.use(vueAwesomeSwiper);
 
 
 Vue.config.productionTip = false;
